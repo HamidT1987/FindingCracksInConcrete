@@ -15,11 +15,11 @@ batch_size = 64
 photo_height = 50
 photo_width = 50
 
-filepath = 'temp_concrete_crack'
+filepath = 'Hamid_pics'
 
-train_path = r'{temp_concrete_crack}/data/concrete_images/train'.format(temp_concrete_crack=filepath)
-val_path = r'{temp_concrete_crack}/data/concrete_images/val'.format(temp_concrete_crack=filepath)
-test_path = r'{temp_concrete_crack}/data/concrete_images/test'.format(temp_concrete_crack=filepath)
+train_path = r'{Hamid_pics}/data/concrete_images/train'.format(Hamid_pics=filepath)
+val_path = r'{Hamid_pics}/data/concrete_images/val'.format(Hamid_pics=filepath)
+test_path = r'{Hamid_pics}/data/concrete_images/test'.format(Hamid_pics=filepath)
 
 train = tf.keras.preprocessing.image_dataset_from_directory(
   train_path,
